@@ -1049,7 +1049,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: 0 10px 10px 0;
 }
 .wordmark-2u86JB {
-	display: none;
+	display: block;
 	background: var(--dplus-wordmark);
     background-size: contain;
     background-repeat: no-repeat;
