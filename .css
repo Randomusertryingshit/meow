@@ -1043,7 +1043,18 @@ that have popups, or else the menu breaks when you hover over them */
 .winButtonClose-3Q8ZH5 {
 	border-radius: 0 10px 10px 0;
 }
-
+.wordmark-2u86JB {
+	display: block;
+	background: var(--dplus-wordmark);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 !important;
+    position: fixed;
+    width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
+    height: 16px;
+    top: var(--dplus-spacing-app);
+    left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
+}
 .theme-light .wordmark-2u86JB {filter: brightness(0);}
 .theme-light .theme-dark .wordmark-2u86JB {filter: none;}
     /*-- 9.2 MacOS Buttons --*/	
