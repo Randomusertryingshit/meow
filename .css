@@ -1035,7 +1035,7 @@ that have popups, or else the menu breaks when you hover over them */
 	margin-right: calc(var(--dplus-spacing-app) * 2);
 	position: relative;
 	left: var(--dplus-spacing-app);
-	align-items: center;
+	align-items: left;
 }
 .withFrame-2dL45i {
 	margin-top: var(--dplus-spacing-app);
@@ -1055,7 +1055,7 @@ that have popups, or else the menu breaks when you hover over them */
     background-repeat: no-repeat;
     background-position: 0 !important;
     position: fixed;
-    width: calc(50% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
+    width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
     height: 16px;
     top: var(--dplus-spacing-app);
     left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
